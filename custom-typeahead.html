@@ -1,0 +1,21 @@
+﻿<div class="SelctBtnGroup" id="typeahead">
+
+    <input type="text" class="inputsearch" id="order" placeholder="Select" ng-model="selectedInputValue" title="{{selectedInputValue}}" ng-keyup="inputKeydown($event)" />
+    <span class="dropdownIcon" id="dropDownAutocomplete" ng-click="dropdownIconclick($event)"></span>
+    <ul class="search-dropdown" ng-show="showOverLay" id="ul-search">
+        <li class="wrap-loading" id="wrap-load">
+            <img class="loading" id="img-load" src="assets/loadingproducts.gif" />
+            <span class="text-loading" id="txt-load">Loading ...</span>
+        </li>
+        <li class="listItemAutoSearch" id="error-msg-load">
+            <span id="elem-error-msg">{{errorList[nameToRender]}}</span>
+        </li>
+        <li class="listItemAutoSearch" id="{{em[idToRender]}}" ng-class="{activeListItem:isCurrent($index+1)}" ng-click="listItemclick(em)" ng-repeat="em in finalList">
+
+            <a tabindex="-1" ng-keydown="focusNextElement($event, em)" id="anchor{{em[idToRender]}}">{{em[nameToRender]}}</a>
+
+        </li>
+
+    </ul>
+
+</div>
