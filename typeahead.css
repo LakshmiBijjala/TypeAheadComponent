@@ -1,0 +1,28 @@
+ul.search-dropdown::after {
+  border-top: 1px solid #A9A9A9;
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  top: 0; }
+
+.search-dropdown li {
+  margin: 0;
+  padding: 5px 0 5px 0;
+  list-style: none;
+  font-weight: normal;
+  font-size: 12px; }
+
+.search-dropdown li a {
+  color: #58585a !important; }
+
+.activeListItem {
+  background-color: #428BCA; }
+
+.customTypeAhead {
+  position: relative; }
+
+.search-dropdown li:focus,
+.search-dropdown li a:focus {
+  outline: none; }
