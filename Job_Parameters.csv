@@ -1,0 +1,3 @@
+"NEW_JOB","TENANT_FOLDER","EMAIL_TO","EMAIL_CC","START_TIME","END_TIME","JOB_ID","FREQUENCY","WORK_FLOW_TYPE","DATE_COLUMN_NAME","DATE_COLUMN_FORMAT","USER_GIT_TOKEN"
+"YES","OBDP_DL_DQ_Oozie_Jobs","DataLake_DQTeam_DL@ds.uhc.com","oncall-dqaas-support@ds.uhc.com","2021-04-09T00:00Z","2119-10-01T07:00Z","095ceaaceacd4ef9a468ddefccdbdcde","00 01 02 * *","NoParameter","date","yyyyMMdd","02e405bcca1c343d108d06087170ffc3cfc40c22"
+"YES","OBDP_DL_DQ_Oozie_Jobs","DataLake_DQTeam_DL@ds.uhc.com","oncall-dqaas-support@ds.uhc.com","2021-04-09T00:00Z","2119-10-01T07:00Z","16a9ef58e574420ab30e91d859b45f98","20 00 02 * *","NoParameter","date","yyyyMMdd","02e405bcca1c343d108d06087170ffc3cfc40c22"
